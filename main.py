@@ -1,6 +1,6 @@
 from flask import Flask
-from constants.Server import Server
-import controller.MainController as mc
+from constants.server import Server
+import controller.controller_main as mc
 
 app = Flask(__name__)
 
